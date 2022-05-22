@@ -92,7 +92,7 @@
         }
 
 
-        d3.csv("https://raw.githubusercontent.com/JeffSackmann/tennis_wta/master/wta_matches_2020.csv")
+        d3.csv("https://raw.githubusercontent.com/andrewchea4/Information_Visualization/main/Tennis.csv")
             .then(csvData => {
                 csvData.forEach(d => {
                     d["winner_ht"] = +d["winner_ht"];
